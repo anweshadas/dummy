@@ -1,0 +1,8 @@
+---
+# tasks file for home_dummy
+
+- name: Creat a directory inside home called dummy
+  ansible.builtin.file:
+    path: ~/
+    state: directory
+    mode: '0755'
