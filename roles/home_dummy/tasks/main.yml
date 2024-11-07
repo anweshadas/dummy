@@ -6,3 +6,7 @@
     path: ~/
     state: directory
     mode: '0755'
+
+
+## create a directory based on the name_value, if it is already there, do not create it
+## if you create then the change is true if you do not create then the change is false

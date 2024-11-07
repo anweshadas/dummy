@@ -1,3 +1,9 @@
 # Ansible Collection - anweshadas.dummy
 
-Documentation for the collection.
+This is a collection to learn how to create collections.
+
+## Instatlation
+
+```
+ansible-galaxy collection install anweshadas.dummy
+```

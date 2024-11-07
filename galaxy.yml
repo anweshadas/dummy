@@ -21,16 +21,16 @@ authors:
 
 ### OPTIONAL but strongly recommended
 # A short summary description of the collection
-description: Dummy collection for practiing
+description: Dummy collection for practicing
 
 # Either a single license or a list of licenses for content inside of a collection. Ansible Galaxy currently only
 # accepts L(SPDX,https://spdx.org/licenses/) licenses. This key is mutually exclusive with 'license_file'
 license:
-- GPL-2.0-or-later
+- GPL-3.0
 
 # The path to the license file for the collection. This path is relative to the root of the collection. This key is
 # mutually exclusive with 'license'
-license_file: license.txt
+license_file: LICENSE
 
 # A list of tags you want to associate with the collection for indexing/searching. A tag name has the same character
 # requirements as 'namespace' and 'name'
@@ -48,7 +48,7 @@ dependencies: {}
 repository: https://github.com/anweshadas/dummy
 
 # The URL to any online docs
-documentation: http://docs.dummy
+documentation: https://github.com/anweshadas/dummy
 
 # The URL to the homepage of the collection/project
 homepage: https://github.com/anweshadas/dummy
